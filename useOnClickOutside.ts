@@ -23,7 +23,6 @@ const useOnClickOutside = <T extends HTMLElement>(
 
         const handler = (e: React.MouseEvent<T, 'click'>) => {
             const { target } = e
-            console.log(target)
             if (
                 !(target instanceof window.Element) ||
                 nodeToAttachTo.contains(target)
@@ -33,7 +32,7 @@ const useOnClickOutside = <T extends HTMLElement>(
 
             call(e)
         }
-        console.log('owo')
+
         document.addEventListener(
             'click',
             (handler as unknown) as EventListener
