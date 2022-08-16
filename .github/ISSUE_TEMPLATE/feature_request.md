@@ -11,10 +11,9 @@ assignees: ''
 Describe the new feature
 
 **Figma link**
--
+
 
 **Related NFS-CORE issue**
--
+
 
 **Related discussions**
--
