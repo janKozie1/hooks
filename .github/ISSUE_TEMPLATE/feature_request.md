@@ -1,8 +1,8 @@
 ---
-name: Bug report
-about: Create a report for a bug you've found
+name: Feature request
+about: Describe a new feature
 title: ''
-labels: bug
+labels: enhancement
 assignees: ''
 
 ---
